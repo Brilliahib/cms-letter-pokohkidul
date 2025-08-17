@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratTugas extends CreateRecord
 {
     protected static string $resource = SuratTugasResource::class;
+
+    protected static ?string $title = 'Tambah Surat Perintah Tugas';
 }

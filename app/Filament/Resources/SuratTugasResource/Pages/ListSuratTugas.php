@@ -10,6 +10,8 @@ class ListSuratTugas extends ListRecords
 {
     protected static string $resource = SuratTugasResource::class;
 
+    protected static ?string $title = 'Surat Perintah Tugas';
+
     protected function getHeaderActions(): array
     {
         return [

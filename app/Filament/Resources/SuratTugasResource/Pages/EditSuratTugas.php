@@ -10,6 +10,8 @@ class EditSuratTugas extends EditRecord
 {
     protected static string $resource = SuratTugasResource::class;
 
+    protected static ?string $title = 'Edit Surat Perintah Tugas';
+
     protected function getHeaderActions(): array
     {
         return [

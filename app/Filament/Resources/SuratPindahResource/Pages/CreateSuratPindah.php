@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratPindah extends CreateRecord
 {
     protected static string $resource = SuratPindahResource::class;
+
+    protected static ?string $title = 'Tambah Surat Keterangan Pindah';
 }

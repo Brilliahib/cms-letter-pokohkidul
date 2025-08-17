@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratTaksir extends CreateRecord
 {
     protected static string $resource = SuratTaksirResource::class;
+
+    protected static ?string $title = 'Tambah Surat Keterangan Taksir Tanah';
 }

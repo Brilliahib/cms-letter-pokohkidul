@@ -10,6 +10,8 @@ class EditSuratPindah extends EditRecord
 {
     protected static string $resource = SuratPindahResource::class;
 
+    protected static ?string $title = 'Edit Surat Keterangan Pindah';
+
     protected function getHeaderActions(): array
     {
         return [

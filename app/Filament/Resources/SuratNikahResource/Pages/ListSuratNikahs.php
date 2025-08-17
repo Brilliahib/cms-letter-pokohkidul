@@ -10,7 +10,7 @@ class ListSuratNikahs extends ListRecords
 {
     protected static string $resource = SuratNikahResource::class;
 
-    protected static ?string $title = 'Surat Nikah';
+    protected static ?string $title = 'Surat Pengantar Nikah';
 
     protected function getHeaderActions(): array
     {

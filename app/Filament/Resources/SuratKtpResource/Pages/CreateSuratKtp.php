@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratKtp extends CreateRecord
 {
     protected static string $resource = SuratKtpResource::class;
+
+    protected static ?string $title = 'Tambah Surat Permohonan KTP';
 }

@@ -10,6 +10,8 @@ class ListSuratKtps extends ListRecords
 {
     protected static string $resource = SuratKtpResource::class;
 
+    protected static ?string $title = 'Surat Permohonan KTP';
+
     protected function getHeaderActions(): array
     {
         return [

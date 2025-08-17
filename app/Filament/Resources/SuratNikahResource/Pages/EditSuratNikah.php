@@ -10,7 +10,7 @@ class EditSuratNikah extends EditRecord
 {
     protected static string $resource = SuratNikahResource::class;
 
-    protected static ?string $title = 'Edit Surat Nikah';
+    protected static ?string $title = 'Edit Surat Pengantar Nikah';
 
     protected function getHeaderActions(): array
     {

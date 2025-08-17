@@ -10,6 +10,8 @@ class EditSuratTaksir extends EditRecord
 {
     protected static string $resource = SuratTaksirResource::class;
 
+    protected static ?string $title = 'Edit Surat Keterangan Taksir Tanah';
+
     protected function getHeaderActions(): array
     {
         return [

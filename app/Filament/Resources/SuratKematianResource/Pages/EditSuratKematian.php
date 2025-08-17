@@ -10,6 +10,8 @@ class EditSuratKematian extends EditRecord
 {
     protected static string $resource = SuratKematianResource::class;
 
+    protected static ?string $title = 'Edit Surat Keterangan Kematian';
+
     protected function getHeaderActions(): array
     {
         return [

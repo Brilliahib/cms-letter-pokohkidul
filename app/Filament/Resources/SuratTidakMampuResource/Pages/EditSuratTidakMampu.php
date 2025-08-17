@@ -10,6 +10,8 @@ class EditSuratTidakMampu extends EditRecord
 {
     protected static string $resource = SuratTidakMampuResource::class;
 
+    protected static ?string $title = 'Edit Surat Keterangan Tidak Mampu';
+
     protected function getHeaderActions(): array
     {
         return [

@@ -10,6 +10,8 @@ class EditSuratKelahiran extends EditRecord
 {
     protected static string $resource = SuratKelahiranResource::class;
 
+    protected static ?string $title = 'Edit Surat Keterangan Kelahiran';
+
     protected function getHeaderActions(): array
     {
         return [

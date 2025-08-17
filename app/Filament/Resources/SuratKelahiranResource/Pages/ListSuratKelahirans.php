@@ -10,6 +10,8 @@ class ListSuratKelahirans extends ListRecords
 {
     protected static string $resource = SuratKelahiranResource::class;
 
+    protected static ?string $title = 'Surat Keterangan Kelahiran';
+
     protected function getHeaderActions(): array
     {
         return [

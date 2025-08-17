@@ -10,6 +10,8 @@ class ListSuratTaksirs extends ListRecords
 {
     protected static string $resource = SuratTaksirResource::class;
 
+    protected static ?string $title = 'Surat Keterangan Taksir Tanah';
+
     protected function getHeaderActions(): array
     {
         return [

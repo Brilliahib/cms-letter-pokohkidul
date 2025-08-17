@@ -10,6 +10,8 @@ class ListSuratTidakMampus extends ListRecords
 {
     protected static string $resource = SuratTidakMampuResource::class;
 
+    protected static ?string $title = 'Surat Keterangan Tidak Mampu';
+
     protected function getHeaderActions(): array
     {
         return [

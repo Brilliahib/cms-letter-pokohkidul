@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratTidakMampu extends CreateRecord
 {
     protected static string $resource = SuratTidakMampuResource::class;
+
+    protected static ?string $title = 'Tambah Surat Keterangan Tidak Mampu';
 }

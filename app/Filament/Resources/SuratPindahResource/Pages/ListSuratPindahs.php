@@ -10,6 +10,8 @@ class ListSuratPindahs extends ListRecords
 {
     protected static string $resource = SuratPindahResource::class;
 
+    protected static ?string $title = 'Surat Keterangan Pindah';
+
     protected function getHeaderActions(): array
     {
         return [

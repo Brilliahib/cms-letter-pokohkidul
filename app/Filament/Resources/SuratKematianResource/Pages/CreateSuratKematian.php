@@ -9,4 +9,6 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateSuratKematian extends CreateRecord
 {
     protected static string $resource = SuratKematianResource::class;
+
+    protected static ?string $title = 'Tambah Surat Keterangan Kematian';
 }

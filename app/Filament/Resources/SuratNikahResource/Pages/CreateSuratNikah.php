@@ -10,5 +10,5 @@ class CreateSuratNikah extends CreateRecord
 {
     protected static string $resource = SuratNikahResource::class;
 
-    protected static ?string $title = 'Tambah Surat Nikah';
+    protected static ?string $title = 'Tambah Surat Pengantar Nikah';
 }

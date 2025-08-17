@@ -10,6 +10,8 @@ class EditSuratKtp extends EditRecord
 {
     protected static string $resource = SuratKtpResource::class;
 
+    protected static ?string $title = 'Edit Surat Permohonan KTP';
+
     protected function getHeaderActions(): array
     {
         return [

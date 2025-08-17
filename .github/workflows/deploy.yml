@@ -32,9 +32,11 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.pokohkidul.my.id
+          server: pokohkidul.my.id
           username: adminftp@pokohkidul.my.id
           password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftps
           local-dir: ./
           server-dir: /public_html/
           exclude: |
